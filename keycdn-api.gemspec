@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = 'keycdn-api'
-  s.version     = '0.1'
+  s.version     = '1.0'
 
   s.summary     = "KeyCDN API"
   s.description = "A simple wrapper for the KeyCDN API functionality"

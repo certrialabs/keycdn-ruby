@@ -9,7 +9,6 @@ require "keycdn-api/api/zones"
 module KeyCDN
   class API
     ENDPOINT = 'https://api.keycdn.com'
-    #ENDPOINT = 'http://52.59.72.21:3000'
 
     def initialize(options = {})
       api_key = "#{options.delete(:api_key)}:"
