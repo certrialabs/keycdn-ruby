@@ -2,6 +2,7 @@
 Just a tiny wrapper for the KeyCDN API. This one differs from the vendor maintained lib in following:
 
 * raises exceptions in case of HTTP or response issues - now you can safely wrap the API calls in ActiveRecord transactions
+* based on the excon HTTP lib - fast and performant, also easily allowing extending the wrapper to API call retries and other cool stuff
 * returns only the relevant data part of the responses (i.e. response['data']['zones'] when getting all zones, etc)
 * leaves relevant places for extending the lib with specific calls, not included in the API - e.g. find_zone_by_name
 
