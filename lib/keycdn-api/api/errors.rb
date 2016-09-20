@@ -19,7 +19,8 @@ module KeyCDN
       class NotFound < ErrorWithResponse; end
       class RequestFailed < ErrorWithResponse; end
 
-      class ObjectNotFound < Error; end  
+      class ObjectNotFound < Error; end
+      class UploadFailed < Error; end
     end
   end
 end
